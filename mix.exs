@@ -5,7 +5,7 @@ defmodule NewRelicOban.MixProject do
     [
       app: :new_relic_oban,
       description: "New Relic Instrumentation for Oban",
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.12",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
